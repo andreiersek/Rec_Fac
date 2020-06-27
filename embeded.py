@@ -1,6 +1,6 @@
 from time import sleep
 import RPi.GPIO as GPIO
-
+import socket
 GPIO.setmode(GPIO.BOARD)
 rlinpin=8
 hallpin=12
