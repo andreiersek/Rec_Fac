@@ -21,10 +21,11 @@ while True:
     
     if(GPIO.input(hallpin)== True):
         print("Usa deschisa")
+        stare = False
         sleep(3)
         
     else:
         print("usa inschisa")
-        sleep(3)
+        stare = True
     
     command = not command
